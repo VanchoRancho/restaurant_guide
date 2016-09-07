@@ -877,6 +877,10 @@ footer .bottom_nav .menu .item{
 	font-size:0;
 	margin:0 0 50px 0;
 }
+.item_rest{
+	padding:0 0 50px 0;
+	border-bottom:2px solid #fbdc67;
+}
 .list_rest .item{
 	padding:46px 0;
 	border-bottom:1px solid #d9d9d9;
@@ -1177,4 +1181,58 @@ a:hover .icon_color{
 a .icon_color,
 a:hover .icon_grey{
 	display: none;
+}
+#tabs ul{
+	display: block;
+	font-size:0;
+}
+#tabs ul li{
+	width:148px;
+	height:38px;
+	border-top: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+	border-right: 0.5px solid #d9d9d9;
+	border-left: 0.5px solid #d9d9d9;
+}
+#tabs ul li.active,
+#tabs ul li:hover{
+	background: #87db60;
+	border-top: 1px solid #87db60;
+	border-bottom: 1px solid #87db60;
+	border-right: 0.5px solid #87db60;
+	border-left: 0.5px solid #87db60;
+}
+
+#tabs ul li:first-child{
+	-webkit-border-radius:4px 0 0 4px;
+	-moz-border-radius:4px 0 0 4px;
+	border-radius:4px 0 0 4px;
+	border-left: 1px solid #d9d9d9;
+}
+#tabs ul li:last-child{
+	-webkit-border-radius:0 4px 4px 0;
+	-moz-border-radius:0 4px 4px 0;
+	border-radius:0 4px 4px 0;
+	border-right: 1px solid #d9d9d9;
+}
+#tabs ul li:first-child:hover,
+#tabs ul li:first-child.active{
+	border-left: 1px solid #87db60;
+}
+#tabs ul li:last-child:hover,
+#tabs ul li:last-child.active{
+	border-right: 1px solid #87db60;
+}
+#tabs ul li a{
+	display: block;
+	position: relative;
+	font-size:14px;
+	line-height:38px;
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+}
+#tabs ul li.active a,
+#tabs ul li:hover a{
+	color: #fff;
 }
