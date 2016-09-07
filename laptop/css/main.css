@@ -772,8 +772,15 @@ footer .bottom_nav .menu .item{
 .filters .title_filter{
 	margin:25px 0 40px 0;
 }
+.filters .title_filter_param{
+	margin:0 0 13px 0;
+	padding:0 0 0 49px;
+}
 .filters .param{
 	margin:0 0 42px 0;
+}
+.filters.food_filter .param{
+	margin:0 0 20px 0;
 }
 .filters .param .clear_param{
 	display: none;
@@ -786,15 +793,24 @@ footer .bottom_nav .menu .item{
 }
 .filters .param .param_title{
 	display: block;
+	position: relative;
 	margin:0 70px 17px 0;
+	padding:0 0 0 48px;
 	cursor: pointer;
 
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
 }
+.filters.food_filter .param .param_title{
+	margin:0 70px 22px 0;
+}
 .filters .param .param_title img{
-	margin:0 35px 0 0;
+	display: block;
+	position: absolute;
+	left:0;
+	top:0;
+	margin:6px 0 0 0;
 	-o-transition: all 100ms linear;
 	-moz-transition: all 100ms linear;
 	-webkit-transition: all 100ms linear;
@@ -805,6 +821,9 @@ footer .bottom_nav .menu .item{
 }
 .filters .param .list{
 	display: none;
+}
+.filters.food_filter .param .list{
+	margin:0 0 23px 0;
 }
 .filters .param .list label{
 	display: block;
@@ -1184,6 +1203,7 @@ a:hover .icon_grey{
 }
 #tabs ul{
 	display: block;
+	margin:0 0 50px 0;
 	font-size:0;
 }
 #tabs ul li{
@@ -1235,4 +1255,55 @@ a:hover .icon_grey{
 #tabs ul li.active a,
 #tabs ul li:hover a{
 	color: #fff;
+}
+.small_form_filter{
+	display: block;
+	position: relative;
+	width: 238px;
+	height:28px;
+	margin:0 0 33px 0;
+	border:1px solid #d9d9d9;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	font-size:0;
+}
+.small_form_filter input[type=text]{
+	width: 152px;
+	height:28px;
+	padding:0 10px 0 20px;
+	border:none;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+}
+.small_form_filter input[type=submit]{
+	width: 56px;
+	height:28px;
+	border:none;
+	cursor: pointer;
+	background: url('../img/search_gray.svg') center center no-repeat;
+}
+.no-svg .small_form_filter input[type=submit]{
+	background: url('../img/search_gray.png') center center no-repeat;
+}
+.list_food{
+	font-size:0;
+}
+.list_food .item{
+	width:240px;
+	height:auto;
+	margin:0 30px 50px 0;
+}
+.list_food .item:nth-child(3n+3){
+	margin:0 0 50px 0;
+}
+.list_food .item .img_holder{
+	width:240px;
+	height:240px;
+	overflow: hidden;
+	margin:0 0 27px 0;
+}
+.list_food .item p{
+	margin:0 0 12px 0;
 }

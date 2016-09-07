@@ -73,10 +73,71 @@
         </ul>
     </div>
     <aside class="dib pad_r_30">
+        <?php include 'filter_in_rest.inc.php';?>
     </aside>
     <div class="dib row-n">
+            <div class="list_food">
+
+                <div class="item dib">
+                    <div class="img_holder">
+                        <img src="img/content/03_restaurant_menu/roll_01.jpg" alt="">
+                    </div>
+                    <p>Каи хотатэ</p>
+                    <p class="color_dark">285 руб.</p>
+                </div>
 
 
+
+                <div class="item dib">
+                    <div class="img_holder">
+                        <img src="img/content/03_restaurant_menu/roll_02.jpg" alt="">
+                    </div>
+                    <p>Эби ниватори 105 г</p>
+                    <p class="color_dark">285 руб.</p>
+                </div>
+
+
+
+                <div class="item dib">
+                    <div class="img_holder">
+                        <img src="img/content/03_restaurant_menu/roll_03.jpg" alt="">
+                    </div>
+                    <p>Канаяма ролл 110 г</p>
+                    <p class="color_dark">285 руб.</p>
+                </div>
+
+
+
+                <div class="item dib">
+                    <div class="img_holder">
+                        <img src="img/content/03_restaurant_menu/roll_04.jpg" alt="">
+                    </div>
+                    <p>Хияши унаги 170 г</p>
+                    <p class="color_dark">285 руб.</p>
+                </div>
+
+
+
+                <div class="item dib">
+                    <div class="img_holder">
+                        <img src="img/content/03_restaurant_menu/roll_05.jpg" alt="">
+                    </div>
+                    <p>Сякэ темпура 160 г</p>
+                    <p class="color_dark">285 руб.</p>
+                </div>
+
+
+
+                <div class="item dib">
+                    <div class="img_holder">
+                        <img src="img/content/03_restaurant_menu/roll_06.jpg" alt="">
+                    </div>
+                    <p>Отори ролл 235 г</p>
+                    <p class="color_dark">285 руб.</p>
+                </div>
+
+
+            </div>
     </div>
 
 
