@@ -3,6 +3,7 @@
 
 
     <div class="item_rest row_restaurant">
+        <div class="back_to_parent"><a href="02_catalog_by_list.php" class="color_dark"><img src="img/arrow_gray_left.svg" alt="" class="dibm">Обратно в Каталог</a></div>
             <div class="col_1 dib">
                 <a href="#" class="img_holder"><img src="img/restaurant_logo_sample_01.svg" alt=""></a>
             </div>

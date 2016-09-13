@@ -1412,3 +1412,10 @@ div[data-title]:hover::after {
 .item_rest .col_2 .tabs ul li{
 	width:128px;
 }
+.back_to_parent{
+	margin:14px 0 36px;
+	padding:0 0 0 6px;
+}
+.back_to_parent a img{
+	margin:0 20px 0 0;
+}
