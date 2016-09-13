@@ -23,10 +23,10 @@
                 </div>
                 <div class="social_links dib">
                     <ul>
-                        <li class="dib"><a href="#"><img src="img/vk_dark.svg" alt=""></a></li>
-                        <li class="dib"><a href="#"><img src="img/fb_dark.svg" alt=""></a></li>
-                        <li class="dib"><a href="#"><img src="img/inst_dark.svg" alt=""></a></li>
-                        <li class="dib"><a href="#"><img src="img/twitter_dark.svg" alt=""></a></li>
+                        <li class="dibm"><a href="#"><img src="img/vk_dark.svg" alt=""></a></li>
+                        <li class="dibm"><a href="#"><img src="img/fb_dark.svg" alt=""></a></li>
+                        <li class="dibm"><a href="#"><img src="img/inst_dark.svg" alt=""></a></li>
+                        <li class="dibm"><a href="#"><img src="img/twitter_dark.svg" alt=""></a></li>
                     </ul>
                 </div>
             </footer>

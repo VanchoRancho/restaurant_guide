@@ -1,5 +1,5 @@
 <form class="filters">
-    <p>Всего результатов: <strong>226</strong></p>
+    <p>Всего результатов: <strong class="color_dark">226</strong></p>
     <p class="title_filter">Фильтры:</p>
 
 
