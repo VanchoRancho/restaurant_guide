@@ -79,7 +79,7 @@ $(document).ready(function(){
 
 
 	//checkbox radio
-	$("input[type=checkbox]").checkboxradio();
+	$("input[type=checkbox],input[type=radio]").checkboxradio();
 
 	//show/hide header
 	var tempScrollTop = 0,currentScrollTop = $(window).scrollTop();
@@ -229,5 +229,21 @@ $(document).ready(function(){
 	});
 	$(document).on('mouseleave', '.view_float_holder', function() {
 		$('.list_food .item').removeClass('view_float_holder');
+	});
+
+	//rating
+	$('.rating .points .item').on('click',function () {
+		var el = $(this),
+			parent =$(el).parent(),
+			num = el.data('num');
+		parent.find('.item').removeClass('selected');
+		var i = 0;
+		while (i < num) {
+			parent.children('.item:eq('+i+')').addClass('selected');
+			i++;
+		}
+		parent.parent().find('.interier_rating').val(num)
+		if(num < 10){num = num + ',0';}
+		parent.parent().find('.value').html(num)
 	});
 });

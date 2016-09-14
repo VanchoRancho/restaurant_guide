@@ -81,8 +81,8 @@
         <ul class="dib">
             <li class="dib"><a href="#">Описание</a></li>
             <li class="dib active"><a href="#">Меню</a></li>
-            <li class="dib"><a href="#">Отзывы</a></li>
-            <li class="dib"><a href="#">Новости, акции</a></li>
+            <li class="dib"><a href="07_restaurant_page_feedback.php">Отзывы</a></li>
+            <li class="dib"><a href="08_restaurant_page_news_akcii_list.php">Новости, акции</a></li>
         </ul>
     </div>
     <aside class="dib pad_r_30">

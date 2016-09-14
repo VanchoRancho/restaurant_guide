@@ -23,25 +23,33 @@
     <div class="advs">
         <div class="item dib">
             <div class="holder">
-                <img src="img/adv_adv.svg" alt="">
+                <div class="img_holder">
+                    <img src="img/adv_adv.svg" alt="">
+                </div>
                 <p class="title">Много возможностей<br/>на одном сайте</p>
             </div>
         </div>
         <div class="item dib">
             <div class="holder">
-                <img src="img/adv_quantity.svg" alt="">
+                <div class="img_holder">
+                    <img src="img/adv_quantity.svg" alt="">
+                </div>
                 <p class="title">Более 1200<br/>ресторанов</p>
             </div>
         </div>
         <div class="item dib">
             <div class="holder">
-                <img src="img/adv_support.svg" alt="">
+                <div class="img_holder">
+                    <img src="img/adv_support.svg" alt="">
+                </div>
                 <p class="title">Круглосуточная<br/>поддержка</p>
             </div>
         </div>
         <div class="item dib">
             <div class="holder">
-                <img src="img/adv_mobile.svg" alt="">
+                <div class="img_holder">
+                    <img src="img/adv_mobile.svg" alt="">
+                </div>
                 <p class="title">Удобная<br/>мобильная версия</p>
             </div>
         </div>

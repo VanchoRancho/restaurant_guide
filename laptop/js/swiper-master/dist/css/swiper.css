@@ -146,6 +146,20 @@
 .no-svg .swiper-button-prev.grey-arrow{
   background-image: url(slider_arrow_left_grey.png);
 }
+.swiper-button-prev.green-arrow{
+  width: 30px;
+  height: 30px;
+  margin-left:30px;
+  -moz-background-size: 30px 30px;
+  -webkit-background-size: 30px 30px;
+  background-size: 30px 30px;
+}
+.swiper-button-prev.green-arrow{
+  background-image: url(arrow_green_left.svg);
+}
+.no-svg .swiper-button-prev.green-arrow{
+  background-image: url(arrow_green_left.png);
+}
 .swiper-button-next,
 .swiper-container-rtl .swiper-button-prev {
   right: 0px;
@@ -155,6 +169,20 @@
   background-image: url(slider_arrow_right_grey.svg);
 }
 .no-svg .swiper-button-next.grey-arrow {
+  background-image: url(arrow_green_right.png);
+}
+.swiper-button-next.green-arrow{
+  width: 30px;
+  height: 30px;
+  margin-right:30px;
+  -moz-background-size: 30px 30px;
+  -webkit-background-size: 30px 30px;
+  background-size: 30px 30px;
+}
+.swiper-button-next.green-arrow {
+  background-image: url(arrow_green_right.svg);
+}
+.no-svg .swiper-button-next.green-arrow {
   background-image: url(slider_arrow_right_grey.png);
 }
 /* Pagination Styles */
