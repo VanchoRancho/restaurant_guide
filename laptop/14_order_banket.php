@@ -55,7 +55,7 @@
 
         </div>
         <div class="col-2 dib">
-            <div class="big_order_holder">
+            <div class="big_holder_form">
                 <form>
                     <p class="color_dark">Форма заявки</p>
                     <input type="text" placeholder="Имя, Фамилия">

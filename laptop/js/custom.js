@@ -31,6 +31,18 @@ $(document).ready(function(){
 		$(this).toggleClass('active');
 		$(id).slideToggle(100);
 	});
+	$('a[data-event=slidedown]').on('click', function (event) {
+		event.preventDefault();
+		var id = $(this).data('id');
+		$(this).addClass('active');
+		$(id).slideDown(100);
+	});
+	$('a[data-event=slideup]').on('click', function (event) {
+		event.preventDefault();
+		var id = $(this).data('id');
+		$(this).removeClass('active');
+		$(id).slideUp(100);
+	});
 	$(window).resize(function () {
 		//$('.open_visible').removeClass('open_visible');
 	});
@@ -41,17 +53,15 @@ $(document).ready(function(){
 		$(id).attr('placeholder',placeholder);
 	});
 
+
 	$("select").selectmenu({
 		change: function( event, ui ) {
 			var id = $(this).data('id'),
 				placeholder = $(this).children( "option:selected" ).data('placeholder');
 			$(id).attr('placeholder',placeholder);
-		},
-		// open: function( event, ui ) {
-		// 	$('.open_visible').removeClass('open_visible');
-		// 	$('.open_visible_toggle').removeClass('open_visible_toggle');
-		// }
+		}
 	});
+
 
 	//autocomplite
 	var availableTags = [
@@ -200,9 +210,11 @@ $(document).ready(function(){
 		$.extend($.datepicker.regional["ru"])
 	);
 	$(".datepicker").datepicker({
-		dateFormat: 'dd MM'
+		dateFormat: 'dd MM',
+		beforeShow: function(input, inst) {
+			$('#ui-datepicker-div').attr("data-id",this.id);
+		}
 	});
-
 
 
 	function in_center() {
@@ -245,5 +257,21 @@ $(document).ready(function(){
 		parent.parent().find('.interier_rating').val(num)
 		if(num < 10){num = num + ',0';}
 		parent.parent().find('.value').html(num)
+	});
+
+
+	//min height content
+	function hc_height(){
+		var height_header = $('header').outerHeight(),
+			height_footer = $('footer').outerHeight(),
+			height_window = $(window).outerHeight(),
+			min_height = 100;
+			min_height = height_window - height_header - height_footer - 42;
+		if(min_height < 100){min_height = 100;}
+		$('#holder_content').css({'min-height':min_height});
+	}
+	hc_height();
+	$(window).resize(function () {
+		hc_height();
 	});
 });
