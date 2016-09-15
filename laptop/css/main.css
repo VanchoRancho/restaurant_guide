@@ -586,7 +586,13 @@ aside{
 	padding-right:90px;
 }
 .pad_r_120{
-	padding-right:120px;
+	padding-right:116px;
+}
+.pad0{
+	padding:0 !important;
+}
+.marg0{
+	margin:0 !important;
 }
 .swiper-container {
 	width: 100%;
@@ -1920,16 +1926,27 @@ div[data-title]:hover::after {
 .basket_page h1{
 	margin:0 0 35px;
 }
-.basket_page .toggle_step{
+.basket_page .toggle_step,
+.identification_page .toggle_step{
 	display: block;
 	margin:0 0 31px 0;
 	max-width: 693px;
 	background: url('../img/arrow_gray_down.svg') right 3px no-repeat;
 }
-.basket_page .toggle_step.active{
+.toggle_step_with_param{
+	max-width: 240px;
+	margin:0 0 31px 0;
+	padding:0 0 0 50px;
+	white-space: nowrap;
+	overflow: hidden;
+	background: url('../img/arrow_gray_down.svg') left 7px no-repeat;
+}
+.basket_page .toggle_step.active,
+.identification_page .toggle_step.active{
 	background: url('../img/arrow_gray_up.svg') right 3px no-repeat;
 }
-.no-svg .basket_page .toggle_step.active{
+.no-svg .basket_page .toggle_step.active,
+.no-svg .identification_page .toggle_step.active{
 	background: url('../img/arrow_gray_up.png') right 3px no-repeat;
 }
 .basket_page .total{
@@ -1939,11 +1956,13 @@ div[data-title]:hover::after {
 .basket_page .total .total_title{
 	width:540px;
 }
-.basket_page .step{
+.basket_page .step,
+.identification_page .step{
 	display: none;
 	margin:0 0 50px 0;
 }
-.basket_page .step.open{
+.basket_page .step.open,
+.identification_page .step.open{
 	display: block;
 }
 .basket_page .btn_step{
@@ -2105,6 +2124,7 @@ div[data-title]:hover::after {
 	line-height:40px;
 	padding:0;
 	text-align: center;
+	border:none;
 	-webkit-border-radius:4px;
 	-moz-border-radius:4px;
 	border-radius:4px;
@@ -2207,6 +2227,11 @@ form.calendar{
 	-moz-border-radius:4px;
 	border-radius:4px;
 }
+.article_page .images img{
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+}
 .article_page .back_to_parent{
 	margin:14px 0 53px;
 }
@@ -2215,6 +2240,15 @@ form.calendar{
 }
 .article_page .text{
 	margin:0 0 25px 0;
+}
+.article_page .text img{
+	margin:25px 0 15px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+}
+.article_page .text p{
+	max-width:600px;
 }
 .article_page .date{
 	margin:0 15px 0 0;
@@ -2253,4 +2287,298 @@ form.calendar{
 }
 #reviews .list_reviews .item .name{
 	margin:0 20px 0 0;
+}
+.toggle_tags{
+	float: right;
+	cursor: pointer;
+	width:60px;
+	height:30px;
+	margin:0px 89px  0 0;
+	line-height:30px;
+	text-align: center;
+}
+.spread img{
+	transform: rotate(180deg);
+}
+.tags.toggle_height{
+	height: 35px;
+	overflow: hidden;
+	-o-transition: all 100ms linear;
+	-moz-transition: all 100ms linear;
+	-webkit-transition: all 100ms linear;
+	transition: all 100ms linear;
+}
+.tags.toggle_height.autoheight{
+	height:auto;
+}
+.short_list_articles{
+	margin:21px 0 0 0;
+}
+.short_list_articles .title_short_list{
+	margin:0 0 47px 0;
+}
+.short_list_articles .item{
+	margin:0 0 39px 0;
+	padding:0 0 10px 0;
+	border-bottom:1px solid #d9d9d9;
+}
+.short_list_articles .item .img_holder{
+	display: block;
+	margin:0 0 20px 0;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	overflow: hidden;
+}
+.short_list_articles .item .h1{
+	display: block;
+	margin:0 0 19px 0;
+}
+.short_list_articles .item p{
+	margin:0 0 20px 0;
+}
+.identification_page form input[type=text],
+.identification_page form input[type=password],
+.auth_form input[type=text],
+.auth_form input[type=password]{
+	width:428px;
+	height:28px;
+	margin:0 0 20px 0;
+	padding:0 0 0 20px;
+	line-height:28px;
+	color:#999;
+	border:1px solid #d9d9d9;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+}
+.auth_form input[type=text],
+.auth_form input[type=password]{
+	display: block;
+}
+.identification_page .added_param{
+	margin:0 0 0 15px;
+}
+.simple_page .auth_form{
+	margin:40px 0 0 0;
+}
+.simple_page .auth_form .green_btn{
+	display: block;
+	margin:41px 0 10px 0;
+}
+.identification_page .added_param *{
+	color:#999;
+}
+.identification_page form label{
+	display: block;
+	text-align: left;
+	margin:0 0 13px 0;
+}
+.identification_page form label.dib,
+.identification_page form label.dibm{
+	display: inline-block;
+}
+.identification_page form .ui-state-active,
+.identification_page form .ui-widget-content .ui-state-active,
+.identification_page form .ui-widget-header .ui-state-active,
+.identification_page form .ui-button.ui-state-active:hover{
+	background: none;
+}
+.identification_page form .ui-button .ui-icon{
+	position: relative;
+	width:18px;
+	height:18px;
+	margin:0 26px 0 0;
+	border:1px solid #d9d9d9;
+	background: #fff;
+	box-shadow: none;
+}
+.identification_page form .ui-checkboxradio-icon.ui-state-checked{
+	background: #fbdc67;
+	border:1px solid #fbdc67;
+}
+.identification_page form .ui-checkboxradio-icon.ui-state-checked:after{
+	content: '';
+	display: block;
+	position: absolute;
+	width:6px;
+	height:6px;
+	top:6px;
+	left:6px;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	border-radius:50%;
+	z-index:9;
+	background: #fff;
+}
+.identification_page form .range_holder{
+	font-size:0;
+	padding:0 0 0 40px;
+}
+.identification_page form .range_holder i,
+.identification_page form .range_holder input{
+	margin:0 10px 20px;
+	line-height:28px;
+}
+.identification_page form .range_holder input{
+	width:68px;
+	height:28px;
+	padding:0;
+	text-align: center;
+	border:1px solid #d7d7d7;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+}
+.identification_page form input[type=file]{
+	display: none;
+}
+.identification_page form .label_file{
+	cursor: pointer;
+	margin:0 13px 0 0;
+}
+.identification_page form .label_file img{
+	margin:-4px 19px 0 0;
+}
+.identification_page,
+.simple_page{
+	padding:17px 0 0 0;
+}
+.identification_page h1,
+.simple_page h1{
+	margin:0 0 42px 0;
+}
+.simple_page p{
+	max-width:400px;
+}
+.identification_page form .control{
+	float: right;
+}
+.identification_page form .control .edit,
+.identification_page form .control .delete{
+	cursor: pointer;
+}
+.identification_page form .control .delete{
+	margin:0 0 0 20px;
+}
+.green_btn.save_edit{
+	display: none;
+	width:40px;
+}
+.hide_for_edit{
+	display: none;
+}
+.this_edit{
+	width: 318px;
+	height:28px;
+	margin:0 0 23px 53px;
+	padding:0 0 0 20px;
+	line-height: 28px;
+	background: #fff;
+	border:1px solid #d9d9d9;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+ }
+.control .green_btn{
+	height:30px;
+	line-height:30px;
+}
+.identification_page form textarea{
+	width:428px;
+	min-width:428px;
+	max-width:428px;
+	height:143px;
+	min-height:143px;
+	max-height:143px;
+	margin:0 0 19px 0;
+	padding:5px 0 0 20px;
+	background: #fff;
+	border:1px solid #d9d9d9;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+}
+.identification_page form .step p{
+	/*margin:0;*/
+}
+.identification_page form .step .text{
+	margin:0 0 32px 0;
+}
+.identification_page form .step .text p a{
+	text-decoration: none;
+}
+.album,
+.new_photos{
+	font-size:0;
+}
+.new_photos{
+	padding:28px 0 0 0;
+}
+.album a,
+.new_photos a{
+	width:88px;
+	height:58px;
+	margin:0 22px 30px 0;
+	border:1px solid #d9d9d9;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	overflow: hidden;
+}
+.album a .delete,
+.album a .add,
+.new_photos a .delete,
+.new_photos a .add{
+	display: none;
+	position: absolute;
+	vertical-align: middle;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	line-height:58px;
+	text-align: center;
+	background: rgba(255,255,255,0.7);
+	z-index:9;
+}
+.album a:hover .delete,
+.album a .add,
+.new_photos a:hover .delete,
+.new_photos a .add{
+	display: block;
+}
+.new_album .plus{
+	margin:0 0 20px 0;
+	white-space: nowrap;
+}
+.new_album .plus img{
+	margin:-3px 20px 0 0;
+}
+.holder_new_album{
+	display: none;
+	margin:0 0 10px;
+}
+.holder_new_album .cancel{
+	margin:0 20px 0 0;
+}
+.holder_new_album input{
+	width: 318px !important;
+	margin:0 20px 0 0 !important;
+}
+.new_album .ok{
+	display: inline-block;
+	width:40px;
+	height:30px;
+	line-height:30px;
+}
+.range_holder.min_price{
+	margin-top:-3px;
+}
+.text400{
+	max-width:400px;
+}
+.text400 p a{
+	color: #333;
+	text-decoration: none;
 }

@@ -25,7 +25,11 @@ $(document).ready(function(){
 		var id = $(this).data('id');
 		$(id).toggleClass('open_visible_toggle');
 	});
+
 	$('a[data-event=slidetoggle]').on('click', function (event) {
+		if($(this).hasClass('this_edit')){
+			return false;
+		}
 		event.preventDefault();
 		var id = $(this).data('id');
 		$(this).toggleClass('active');
@@ -273,5 +277,29 @@ $(document).ready(function(){
 	hc_height();
 	$(window).resize(function () {
 		hc_height();
+	});
+
+
+	$('a[data-event=toggleheight]').on('click', function (event) {
+		event.preventDefault();
+		$(this).toggleClass('spread')
+		var id = $(this).data('id');
+		$(id).toggleClass('autoheight');
+	});
+
+
+	//editable title
+	$('.control .edit').on('click',function () {
+		var el = $(this);
+		el.parent().children('img').addClass('hide_for_edit');
+		el.parent().children('.save_edit').css({'display':'inline-block'});
+		$('#added_'+el.data('id')).addClass('hide_for_edit');
+		$('#editable_'+el.data('id')).attr('contenteditable',true).addClass('this_edit');
+	});
+
+	$('.save_edit').on('click', function () {
+		$('.this_edit').attr('contenteditable',false).removeClass('this_edit');
+		$(this).css({'display':'none'});
+		$('.hide_for_edit').removeClass('hide_for_edit');
 	});
 });
