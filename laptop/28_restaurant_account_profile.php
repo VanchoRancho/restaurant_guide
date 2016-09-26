@@ -155,7 +155,7 @@
                 <div>
                     <a href="#" class="toggle_step color_dark active" data-event="slidetoggle" data-id="#step2_1">Описание заведения *</a>
                     <div class="step open" id="step2_1">
-                        <textarea placeholder="Текст с описанием заведения"></textarea>
+                        <textarea placeholder="Текст с описанием заведения" class="mb0"></textarea>
                     </div>
                 </div>
 
@@ -163,7 +163,7 @@
                 <div>
                     <a href="#" class="toggle_step color_dark" data-event="slidetoggle" data-id="#step2_2">Фотогалерея</a>
                     <div class="step" id="step2_2">
-                        <div class="text">
+                        <div class="text text400">
                             <p>Блок с кратким описанием вашего заведения и<br>возможностью добавления фото (1 галерея на 10 фото<br> бесплатно). Добавление дополнительных галерей — платная опция. </p>
                             <p>Получить подробную информацию и подключить эту опцию<br>вы можете на вкладке <a href="#" class="color_dark">Платные опции.</a></p>
                         </div>
@@ -341,6 +341,21 @@
                     </div>
                 </div>
 
+                <div>
+                    <a href="#" class="toggle_step color_dark" data-event="slidetoggle" data-id="#step141">Заказ столика</a>
+                    <div class="step" id="step141">
+                        <div class="text">
+                            <p>Опция заказа банкета дает вам возможность получать новые заказы напрямую с нашего сайта. Данная функция пре- дусматривает фиксированный комиссионный сбор (10%). Настройки будут доступны после оплаты.</p>
+                            <p>Получить подробную информацию и подключить эту опцию<br>вы можете на вкладке <a href="#" class="color_dark">Платные опции.</a></p>
+                        </div>
+                        <input type="text" placeholder="Цена на 1 человека (руб.)">
+                        <input type="text" placeholder="Пробковый сбор (руб./1 чел.)">
+                        <input type="text" placeholder="Максимальное количество человек">
+                        <label><input type="checkbox">Охраняемая парковка</label>
+                        <label><input type="checkbox">Свой алкоголь</label>
+                    </div>
+                </div>
+
 
                 <div>
                     <a href="#" class="toggle_step color_dark" data-event="slidetoggle" data-id="#step15">Заказ еды</a>
@@ -351,15 +366,14 @@
                         </div>
                         <input type="text" placeholder="Мин. сумма заказа (руб.)">
                         <input type="text" placeholder="Время доставки (мин.)">
-                        <input type="text" placeholder="Стоимость доставки (руб.)">
+                        <p class="color_dark">Стоимость доставки (руб.)"</p>
                         <label><input type="checkbox">Бесплатно</label>
                         <div><label class="dib"><input type="checkbox">Бесплатно при заказе от</label><div class="range_holder dib pad0 min_price"><input type="text" value="800"></div><i class="dib">руб.</i></div>
                         <div><label class="dib"><input type="checkbox">От </label><div class="range_holder dib pad0 min_price"><input type="text" value="250"></div><i class="dib">руб.</i></div>
                     </div>
                 </div>
 
-                <br>
-                <input type="submit" value="Сохранить" class="green_btn">
+                <input type="submit" value="Сохранить" class="green_btn mb30">
             </div><!-- end #window_2-->
 
         </div>

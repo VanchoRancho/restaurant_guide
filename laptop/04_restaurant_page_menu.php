@@ -103,7 +103,7 @@
                             <span class="minus dib">-</span>
                             <input type="text" class="input_count dib" value="20">
                             <span class="plus dib">+</span>
-                            <input type="submit" value="" class="dib add_to_cart">
+                            <div class="dib" data-title="Заказать"><input type="submit" value="" class="dib add_to_cart"></div>
                         </form>
                     </div>
 
@@ -116,7 +116,7 @@
                         <span class="minus dib">-</span>
                         <input type="text" class="input_count dib" value="20">
                         <span class="plus dib">+</span>
-                        <input type="submit" value="" class="dib add_to_cart">
+                        <div class="dib" data-title="Заказать"><input type="submit" value="" class="dib add_to_cart"></div>
                     </form>
                 </div>
 
@@ -134,7 +134,7 @@
                             <span class="minus dib">-</span>
                             <input type="text" class="input_count dib" value="1">
                             <span class="plus dib">+</span>
-                            <input type="submit" value="" class="dib add_to_cart">
+                            <div class="dib" data-title="Заказать"><input type="submit" value="" class="dib add_to_cart"></div>
                         </form>
                     </div>
 
@@ -147,7 +147,7 @@
                         <span class="minus dib">-</span>
                         <input type="text" class="input_count dib" value="1">
                         <span class="plus dib">+</span>
-                        <input type="submit" value="" class="dib add_to_cart">
+                        <div class="dib" data-title="Заказать"><input type="submit" value="" class="dib add_to_cart"></div>
                     </form>
                 </div>
 
@@ -165,7 +165,7 @@
                             <span class="minus dib">-</span>
                             <input type="text" class="input_count dib" value="1">
                             <span class="plus dib">+</span>
-                            <input type="submit" value="" class="dib add_to_cart">
+                            <div class="dib" data-title="Заказать"><input type="submit" value="" class="dib add_to_cart"></div>
                         </form>
                     </div>
                     <div class="img_holder not_float">
@@ -177,7 +177,7 @@
                         <span class="minus dib">-</span>
                         <input type="text" class="input_count dib" value="1">
                         <span class="plus dib">+</span>
-                        <input type="submit" value="" class="dib add_to_cart">
+                        <div class="dib" data-title="Заказать"><input type="submit" value="" class="dib add_to_cart"></div>
                     </form>
                 </div>
 
@@ -195,7 +195,7 @@
                             <span class="minus dib">-</span>
                             <input type="text" class="input_count dib" value="1">
                             <span class="plus dib">+</span>
-                            <input type="submit" value="" class="dib add_to_cart">
+                            <div class="dib" data-title="Заказать"><input type="submit" value="" class="dib add_to_cart"></div>
                         </form>
                     </div>
                     <div class="img_holder not_float">
@@ -207,7 +207,7 @@
                         <span class="minus dib">-</span>
                         <input type="text" class="input_count dib" value="1">
                         <span class="plus dib">+</span>
-                        <input type="submit" value="" class="dib add_to_cart">
+                        <div class="dib" data-title="Заказать"><input type="submit" value="" class="dib add_to_cart"></div>
                     </form>
                 </div>
 
@@ -225,7 +225,7 @@
                             <span class="minus dib">-</span>
                             <input type="text" class="input_count dib" value="1">
                             <span class="plus dib">+</span>
-                            <input type="submit" value="" class="dib add_to_cart">
+                            <div class="dib" data-title="Заказать"><input type="submit" value="" class="dib add_to_cart"></div>
                         </form>
                     </div>
                     <div class="img_holder not_float">
@@ -237,7 +237,7 @@
                         <span class="minus dib">-</span>
                         <input type="text" class="input_count dib" value="1">
                         <span class="plus dib">+</span>
-                        <input type="submit" value="" class="dib add_to_cart">
+                        <div class="dib" data-title="Заказать"><input type="submit" value="" class="dib add_to_cart"></div>
                     </form>
                 </div>
 
@@ -255,7 +255,7 @@
                             <span class="minus dib">-</span>
                             <input type="text" class="input_count dib" value="1">
                             <span class="plus dib">+</span>
-                            <input type="submit" value="" class="dib add_to_cart">
+                            <div class="dib" data-title="Заказать"><input type="submit" value="" class="dib add_to_cart"></div>
                         </form>
                     </div>
                     <div class="img_holder not_float">
@@ -267,7 +267,7 @@
                         <span class="minus dib">-</span>
                         <input type="text" class="input_count dib" value="1">
                         <span class="plus dib">+</span>
-                        <input type="submit" value="" class="dib add_to_cart">
+                        <div class="dib" data-title="Заказать"><input type="submit" value="" class="dib add_to_cart"></div>
                     </form>
                 </div>
             </div>

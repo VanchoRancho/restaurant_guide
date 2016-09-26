@@ -1,0 +1,12 @@
+/* Webfont: ApercuPro-Bold */@font-face {
+    font-family: 'ApercuPro';
+    src: url('ApercuPro-Bold.eot'); /* IE9 Compat Modes */
+    src: url('ApercuPro-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('ApercuPro-Bold.woff') format('woff'), /* Modern Browsers */
+         url('ApercuPro-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('ApercuPro-Bold.svg#ApercuPro-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+

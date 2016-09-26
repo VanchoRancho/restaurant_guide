@@ -71,7 +71,7 @@
                         <div class="dib col_2">
                                 <a href="#" class="dib add_restaurant">
                                         <img src="/laptop/img/plus_green_small.svg"  class="dibm" alt="">
-                                        <i class="dibm color_dark">Добавить реторан</i>
+                                        <i class="dibm color_dark">Добавить ресторан</i>
                                 </a>
                                 <div class="dib profile_holder">
                                         <a href="#" class="dib" data-event="toggle" data-id=".profile_tab">

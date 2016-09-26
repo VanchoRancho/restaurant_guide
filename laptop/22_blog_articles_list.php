@@ -9,7 +9,7 @@
     </div>
     <p class="color_dark">Популярные теги</p><br>
     <div class="tags toggle_height">
-        <a href="#" class="toggle_tags" data-event="toggleheight" data-id=".toggle_height"><img src="img/arrow_gray_up.svg" alt=""></a>
+        <a href="#" class="toggle_tags" data-event="toggleheight" data-id=".toggle_height"><img src="img/arrow_gray_down.svg" alt=""></a>
         <a href="#" class="item dib">Центр</a>
         <a href="#" class="item dib">Санкт-Петербург</a>
         <a href="#" class="item dib">Завтрак</a>
@@ -104,12 +104,12 @@
     </div>
 
 
-    <div class="pagination">
+    <form class="pagination">
         <a href="#" class="prev dib">пред.</a>
-        <span class="current_page dib">23</span>
+        <input type="text" class="current_page dib" value="23">
         <span class="all_page div">из 60</span>
         <a href="#" class="next dib">след.</a>
-    </div>
+    </form>
 
 
 

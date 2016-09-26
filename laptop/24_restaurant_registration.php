@@ -126,9 +126,11 @@
                     <input type="text" placeholder="Vkontakte">
                     <input type="text" placeholder="Instagram">
                     <input type="text" placeholder="Twitter">
+                </div>
+            </div>
+            <div class="holder_for_logo">
                     <label class="label_file color_dark dib" for="file"><img src="img/plus_yellow_big.svg" class="dibm" alt="">Логотип</label><i class="dibm">(200x200 px, jpg или png)</i>
                     <input type="file" id="file">
-                </div>
             </div>
 
             <p class="color_dark">*  —  поля, обязательные для заполнения</p>

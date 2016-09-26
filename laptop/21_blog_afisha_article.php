@@ -23,7 +23,7 @@
         </div>
 
         <p><i class="color_dark date">25 августа</i> 20:10 ч</p>
-        <p class="color_dark name_rest">Ресторан «Bestseller»</p>
+        <p class="color_dark name_rest">Ресторан «Bestseller» <span class="view_on_map"><img src="img/map_small.svg"></span></p>
         <p class="color_dark param_enter">
             <span class="age"><i class="color_middle">Возраст:</i> 16+</span>
             <span class="age"><i class="color_middle">Цена:</i> от 600 до 1800 руб.</span>
@@ -73,15 +73,15 @@
 
 
     <div id="reviews">
-        <p class="color_dark title_form">Отзывы<i class="color_middle"> (56)</i></p>
-        <form class="review_form">
+        <p class="color_dark title_form">Комментарии<i class="color_middle"> (56)</i></p>
+        <form class="review_form  w600">
             <p class="user_name"><img src="img/profile.svg" class="dibm"><i class="dibm color_dark">Константин</i></p>
             <textarea placeholder="Ваш комментарий, отзыв о ресторане"></textarea>
             <input type="submit" value="Отправить">
         </form>
 
 
-        <div class="list_reviews">
+        <div class="list_reviews w600">
             <div class="item">
                 <div class="head">
                     <span class="name dibm color_dark">Анатолий</span>

@@ -70,15 +70,15 @@
 
 
     <div id="reviews">
-        <p class="color_dark title_form">Отзывы<i class="color_middle"> (56)</i></p>
-        <form class="review_form">
+        <p class="color_dark title_form">Комментарии<i class="color_middle"> (56)</i></p>
+        <form class="review_form w600">
             <p class="user_name"><img src="img/profile.svg" class="dibm"><i class="dibm color_dark">Константин</i></p>
             <textarea placeholder="Ваш комментарий, отзыв о ресторане"></textarea>
             <input type="submit" value="Отправить">
         </form>
 
 
-        <div class="list_reviews">
+        <div class="list_reviews w600">
             <div class="item">
                 <div class="head">
                     <span class="name dibm color_dark">Анатолий</span>

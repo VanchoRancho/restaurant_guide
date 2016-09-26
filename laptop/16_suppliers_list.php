@@ -111,7 +111,13 @@
 
 
 
-        </div>
+        </div><!--end list_suppliers-->
+        <form class="pagination">
+            <a href="#" class="prev dib">пред.</a>
+            <input type="text" class="current_page dib" value="23">
+            <span class="all_page div">из 60</span>
+            <a href="#" class="next dib">след.</a>
+        </form>
     </div>
 
 

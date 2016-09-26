@@ -44,8 +44,8 @@ $(document).ready(function(){
 
 	// Add the markers and infowindows to the map
 	var icon = {
-		url: '/laptop/img/map_small.png',
-		scaledSize: new google.maps.Size(16, 22)
+		url: '/laptop/img/map_big_yellow.png',
+		scaledSize: new google.maps.Size(30, 44)
 	};
 	for (var i = 0; i < locations.length; i++) {
 		marker = new google.maps.Marker({
@@ -70,11 +70,11 @@ $(document).ready(function(){
 					item_table = '',
 					item_banket ='';
 
-				if(locations[i][4]){item_rating_rg ="<img src='/laptop/img/rating_rg.png' alt=''> <span class='color_dark'>"+locations[i][4]+"</span>";}
-				if(locations[i][5]){item_rating_user ="<img src='/laptop/img/rating_users.png' alt=''> <span class='color_dark'>"+locations[i][5]+"</span>";}
-				if(locations[i][6] == 1){item_food ="<img src='/laptop/img/order_food.png' alt=''>";}
-				if(locations[i][7] == 1){item_table ="<img src='/laptop/img/order_table.png' alt=''>";}
-				if(locations[i][8] == 1){item_banket ="<img src='/laptop/img/order_banket.png' alt=''>";}
+				if(locations[i][4]){item_rating_rg ="<img src='/laptop/img/rating_rg.png' alt='' class='dibm'> <span class='color_dark dibm'>"+locations[i][4]+"</span>";}
+				if(locations[i][5]){item_rating_user ="<img src='/laptop/img/rating_users.png' alt='' class='dibm'> <span class='color_dark dibm'>"+locations[i][5]+"</span>";}
+				if(locations[i][6] == 1){item_food ="<img src='/laptop/img/order_food.png' alt='' class='dibm'>";}
+				if(locations[i][7] == 1){item_table ="<img src='/laptop/img/order_table.png' alt='' class='dibm'>";}
+				if(locations[i][8] == 1){item_banket ="<img src='/laptop/img/order_banket.png' alt='' class='dibm'>";}
 				var contentString = '<div class="element_map">' +
 					'<span class="title_strong">'+locations[i][0]+'</span>' +
 					'<p class="text"> '+locations[i][3]+'</p>' +

@@ -97,12 +97,12 @@
     </div>
 
 
-    <div class="pagination">
+    <form class="pagination">
         <a href="#" class="prev dib">пред.</a>
-        <span class="current_page dib">23</span>
+        <input type="text" class="current_page dib" value="23">
         <span class="all_page div">из 60</span>
         <a href="#" class="next dib">след.</a>
-    </div>
+    </form>
 
 
 

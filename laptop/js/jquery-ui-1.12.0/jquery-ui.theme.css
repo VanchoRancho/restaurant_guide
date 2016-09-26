@@ -314,7 +314,10 @@ button.ui-button::-moz-focus-inner {
 }
 #ui-datepicker-div{
 	margin-top:20px !important;
-	border:none !important;
+	/*border:none !important;*/
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
 }
 .ui-datepicker {
 	width: 220px;

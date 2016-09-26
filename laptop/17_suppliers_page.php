@@ -4,7 +4,10 @@
 
     <div class="item_rest row_suppliers">
         <div class="col_1 dib">
-            <a href="#" class="img_holder"><img src="img/restaurant_logo_sample_01.svg" alt=""></a>
+            <a href="#" class="img_holder">
+                <span class="mark">new</span>
+                <img src="img/restaurant_logo_sample_01.svg" alt="">
+            </a>
         </div>
         <div class="col_2 dib">
             <div class="desc">
