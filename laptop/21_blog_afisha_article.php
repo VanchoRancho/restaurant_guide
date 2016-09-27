@@ -46,14 +46,14 @@
             <div class="item">
                 <a href="#" class="img_holder"><img src="img/content/09_blog_afisha/afisha_recommended_01.jpg" alt=""></a>
                 <a href="#" class="h1">Единственное выступление английского дуэта Disclosure</a>
-                <p>Клуб «Новое старое»</p>
+                <p><a href="#" class="color_dark">Клуб «Новое старое»</a></p>
             </div>
 
 
             <div class="item">
                 <a href="#" class="img_holder"><img src="img/content/09_blog_afisha/afisha_recommended_02.jpg" alt=""></a>
                 <a href="#" class="h1">Фестиваль студии «Добролет»</a>
-                <p>Клуб «Русский Рок»</p>
+                <p><a href="#" class="color_dark">Клуб «Русский Рок»</a></p>
             </div>
 
 
@@ -63,7 +63,7 @@
                     нового ресторана сети
                     Universal Pictures
                 </a>
-                <p>Ресторан «Bestseller»</p>
+                <p><a href="#" class="color_dark">Ресторан «Bestseller»</a></p>
             </div>
 
         </div>

@@ -2,7 +2,7 @@
     <strong class="title"><img src="img/order_table.svg" class="dibm" alt="">Заказ столика</strong>
     <img src="img/cross.svg" alt="" class="close" data-event="hideall" data-id=".order_table_holder">
 <!--    <input type="hidden" value="Скрытое поле с названием ресторана">-->
-    <select>
+    <select id="count_people">
         <option>на 3 человека</option>
         <option>на 5 человек</option>
         <option>на 10 человек</option>

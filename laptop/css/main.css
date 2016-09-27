@@ -1180,6 +1180,7 @@ footer .bottom_nav .menu .item{
 	width:428px;
 }
 .order_holder form .datepicker{
+	cursor: pointer;
 	text-transform: lowercase;
 	background: url('../img/choice_green.svg') 188px center no-repeat;
 }
@@ -1206,9 +1207,9 @@ footer .bottom_nav .menu .item{
 	color: #999;
 }
 .order_holder form textarea{
-	width:198px;
-	min-width:198px;
-	max-width:198px;
+	width:178px;
+	min-width:178px;
+	max-width:178px;
 }
 .big_holder_form form textarea{
 	width:408px;
@@ -1544,7 +1545,9 @@ input[data-title]:hover::after {
 }
 .list_food hr{
 	margin:0 0 48px 0;
-	border:1px solid #d9d9d9;
+	border:none;
+	height: 1px;
+	background: #d9d9d9;
 }
 .item_rest .col_2 .tabs ul{
 	margin:0 0 26px 0;
@@ -2052,6 +2055,9 @@ input[data-title]:hover::after {
 .identification_page .toggle_step.active + .step{
 	margin-bottom:35px;
 }
+.identification_page .toggle_step.active + .step input:last-child{
+	margin-bottom:0px;
+}
 .basket_page .step.open,
 .identification_page .step.open{
 	display: block;
@@ -2294,6 +2300,9 @@ form.calendar{
 	margin:0 0 14px 0;
 	max-width:400px;
 }
+.list_articles .item p a{
+	text-decoration: none;
+}
 .list_articles .item .params .rubric,
 .article_page .params .rubric{
 	display: block;
@@ -2434,6 +2443,9 @@ form.calendar{
 .short_list_articles .item p{
 	margin:0 0 20px 0;
 }
+.short_list_articles .item p a{
+	text-decoration: none;
+}
 .identification_page form input[type=text],
 .identification_page form input[type=password],
 .auth_form input[type=text],
@@ -2475,7 +2487,16 @@ form.calendar{
 	margin:0 0 19px 0;
 }
 .identification_page form .type{
-	padding:10px 0 16px;
+	padding:6px 0 16px;
+}
+.identification_page form .type .step{
+	margin:0 !important;
+}
+.identification_page form .type .toggle_step{
+	margin:0 0 17px;
+}
+.identification_page form .type .step label{
+	margin:0 0 15px !important;
 }
 .identification_page form label.dib,
 .identification_page form label.dibm{
@@ -2532,6 +2553,9 @@ form.calendar{
 	-webkit-border-radius:4px;
 	-moz-border-radius:4px;
 	border-radius:4px;
+}
+.identification_page form .step .range_holder input{
+	margin-bottom: 0;
 }
 .identification_page form input[type=file]{
 	display: none;
@@ -2772,7 +2796,7 @@ form.calendar{
 	white-space: nowrap;
 }
 .list_menu .item i.this_edit{
-	margin:0 18px 0 0;
+	margin:-3px 18px 0 0;
 }
 .list_menu .item .control .edit{
 	margin-right:16px;
@@ -2817,7 +2841,7 @@ form.calendar{
 	cursor: pointer;
 }
 .list_menu .control .save_edit{
-	margin:3px 0 0 0;
+	margin:1px 0 0 0;
 }
 .list_menu .add_product .form_product,
 .list_menu .form_edit_product .form_product{
@@ -3099,12 +3123,14 @@ form.calendar{
 	min-height:198px;
 	max-height:198px;
 }
-#add_new_article_form .toggle_step{
-	padding:0 0 0 50px;
-	background: url('../img/arrow_gray_down.svg') left 3px no-repeat;
+#add_new_article_form .toggle_step,
+.edit_article .type .toggle_step{
+	padding:0 0 0 46px;
+	background: url('../img/arrow_gray_down.svg') 2px 6px no-repeat;
 }
-#add_new_article_form .toggle_step.active{
-	background: url('../img/arrow_gray_up.svg') left 3px no-repeat;
+#add_new_article_form .toggle_step.active,
+.edit_article .type .toggle_step.active{
+	background: url('../img/arrow_gray_up.svg') 2px 6px no-repeat;
 }
 .admin_action_list .item .date {
 	margin:0 20px 0 0;
@@ -3149,7 +3175,8 @@ input[type=submit].dibm{
 	width:198px;
 }
 .delivery_address input[type=text]:last-child{
-	margin:0 0 20px 6px;
+	margin:0 0 20px 17px;
+	width:187px;
 }
 
 .identification_page .page_rest{
@@ -3257,6 +3284,27 @@ input[type=submit].dibm{
 .mb30{
 	margin-bottom:30px !important;
 }
+.mb25{
+	margin-bottom:25px !important;
+}
 .mb0{
 	margin-bottom: 0 !important;
+}
+#count_people-menu.ui-menu{
+	width:218px !important;
+	margin:-4px 0 0 0 !important;
+}
+#count_people-menu.ui-menu .ui-menu-item-wrapper{
+	height:28px !important;
+	line-height:28px !important;
+}
+.ui-datepicker *{
+	font-family:ApercuProRegular, Tahoma, Helvetica, Arial;
+	font-weight:normal;
+}
+.datepicker{
+	cursor: pointer;
+}
+.mr10{
+	margin-top:10px;
 }

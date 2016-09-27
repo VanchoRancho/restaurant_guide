@@ -314,6 +314,7 @@ button.ui-button::-moz-focus-inner {
 }
 #ui-datepicker-div{
 	margin-top:20px !important;
+	padding:10px 0 3px;
 	/*border:none !important;*/
 	-webkit-border-radius:4px;
 	-moz-border-radius:4px;

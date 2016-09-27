@@ -63,9 +63,7 @@
                 </div>
             </div>
 
-            <br>
-            <input type="submit" value="Сохранить" class="green_btn">
-            <br>
+            <input type="submit" value="Сохранить" class="green_btn mb25">
             <p class="color_dark">*  —  поля, обязательные для заполнения</p>
         </div>
     </form><!-- end cols-->

@@ -386,7 +386,7 @@
                 <input type="password" placeholder="Новый пароль">
                 <input type="password" placeholder="Подтвердите пароль">
 
-                <input type="submit" value="Сохранить" class="green_btn">
+                <input type="submit" value="Сохранить" class="green_btn mr10">
             </div>
         </div>
     </form>
