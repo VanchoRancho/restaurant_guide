@@ -9,7 +9,7 @@
     </select>
     <input type="text" class="datepicker" value="25 сентября">
     <input type="text" placeholder="Имя, Фамилия">
-    <input type="text" placeholder="+7 (---) --- -- --">
+    <input type="text" placeholder="+7 (---) --- -- --" class="phone">
     <textarea placeholder="комментарий, пожелание"></textarea>
     <input type="submit" value="Забронировать столик">
 </form>

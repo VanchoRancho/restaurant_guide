@@ -79,7 +79,7 @@
     <div class="step" id="step2">
         <form class="delivery_form">
             <input class="dib" placeholder="Имя, Фамилия*">
-            <input class="dib" placeholder="+7 (---) --- -- -- *">
+            <input class="dib" placeholder="+7 (---) --- -- -- *" class="phone">
             <input class="" placeholder="Санкт-Петербург, наб. Канала Грибоедова, д. 64">
             <input class="dib" placeholder="Подъезд">
             <input class="dib" placeholder="Квартира / офис *">

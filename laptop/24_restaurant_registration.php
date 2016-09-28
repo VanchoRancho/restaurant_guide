@@ -142,7 +142,7 @@
                 <a href="#" class="toggle_step color_dark active" data-event="slidetoggle" data-id="#step10">Личные данные (администратор заведения) *</a>
                 <div class="step open" id="step10">
                     <input type="text" placeholder="Имя, Фамилия *">
-                    <input type="text" placeholder="+7 (---) --- -- -- *">
+                    <input type="text" placeholder="+7 (---) --- -- -- *" class="phone">
                     <input type="text" placeholder="Ваш e-mail *">
                     <input type="text" placeholder="Пароль *">
                     <input type="text" placeholder="Подтвердите пароль *">
@@ -153,7 +153,7 @@
                 <a href="#" class="toggle_step color_dark active" data-event="slidetoggle" data-id="#step11">Менеджер (бронирование столиков) *</a>
                 <div class="step open" id="step11">
                     <input type="text" placeholder="Имя, Фамилия *">
-                    <input type="text" placeholder="+7 (---) --- -- -- *">
+                    <input type="text" placeholder="+7 (---) --- -- -- *" class="phone">
                     <input type="text" placeholder="E-mail *">
                 </div>
             </div>
@@ -162,7 +162,7 @@
                 <a href="#" class="toggle_step color_dark" data-event="slidetoggle" data-id="#step12">Менеджер (заказ банкета) *</a>
                 <div class="step" id="step12">
                     <input type="text" placeholder="Имя, Фамилия *">
-                    <input type="text" placeholder="+7 (---) --- -- -- *">
+                    <input type="text" placeholder="+7 (---) --- -- -- *" class="phone">
                     <input type="text" placeholder="E-mail *">
                 </div>
             </div>
@@ -171,7 +171,7 @@
                 <a href="#" class="toggle_step color_dark" data-event="slidetoggle" data-id="#step13">Менеджер (доставка еды) *</a>
                 <div class="step" id="step13">
                     <input type="text" placeholder="Имя, Фамилия *">
-                    <input type="text" placeholder="+7 (---) --- -- -- *">
+                    <input type="text" placeholder="+7 (---) --- -- -- *" class="phone">
                     <input type="text" placeholder="E-mail *">
                 </div>
             </div>

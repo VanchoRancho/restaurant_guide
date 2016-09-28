@@ -20,6 +20,7 @@
         <script src="js/alternative-svg.js"></script>
         <script src="js/swiper-master/dist/js/swiper.min.js"></script>
         <script src="js/jquery.columnizer.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/jquery.mask.js" type="text/javascript" charset="utf-8"></script>
         <script src="js/custom.js"></script>
 
 
@@ -74,7 +75,7 @@
                                         <i class="dibm color_dark">Добавить ресторан</i>
                                 </a>
                                 <div class="dib profile_holder">
-                                        <a href="#" class="dib" data-event="toggle" data-id=".profile_tab">
+                                        <a href="#" class="dib btn_profile_tab" data-event="toggle" data-id=".profile_tab">
                                                 <img src="/laptop/img/profile.svg"  class="dibm" alt="">
                                                 <i class="dibm color_dark">Владимир</i>
                                         </a>

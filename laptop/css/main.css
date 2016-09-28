@@ -212,7 +212,7 @@ img{
 	display: block !important;
 }
 #wrapper{
-	width:100%;
+	width:1050px;
 	max-width: 1050px;
 	margin: 0 auto;
 	padding:0 30px;
@@ -3307,4 +3307,7 @@ input[type=submit].dibm{
 }
 .mr10{
 	margin-top:10px;
+}
+.bcw{
+	border-color: #fff !important;
 }

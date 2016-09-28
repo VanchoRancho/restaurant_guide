@@ -59,7 +59,7 @@
                 <form>
                     <p class="color_dark">Форма заявки</p>
                     <input type="text" placeholder="Имя, Фамилия">
-                    <input type="text" placeholder="+7 (---) --- -- --">
+                    <input type="text" placeholder="+7 (---) --- -- --" class="phone">
                     <input type="text" placeholder="Ваш e-mail">
                     <input type="text" placeholder="Количество человек">
                     <input type="text" placeholder="Планируемый бюджет (руб.)">

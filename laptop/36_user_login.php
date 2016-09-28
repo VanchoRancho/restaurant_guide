@@ -28,7 +28,7 @@
                 <form>
                     <input type="text" placeholder="Имя *">
                     <input type="text" placeholder="Фамилия *">
-                    <input type="text" placeholder="+7 (---) --- -- -- *">
+                    <input type="text" placeholder="+7 (---) --- -- -- *" class="phone">
                     <input type="text" placeholder="Ваш e-mail">
                     <input type="password" placeholder="Пароль *">
                     <input type="password" placeholder="Подтвердите пароль *">

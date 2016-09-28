@@ -3,6 +3,9 @@ $(document).ready(function(){
 
 	$('a[data-event=show]').on('click', function (event) {
 		event.preventDefault();
+		if($(this).hasClass('my_city')){
+			$('header.small').addClass('bcw');
+		}
 		$('.open_visible').removeClass('open_visible');
 		var id = $(this).data('id');
 		$(id).addClass('open_visible');
@@ -10,6 +13,9 @@ $(document).ready(function(){
 	});
 	$('a[data-event=hide]').on('click', function (event) {
 		event.preventDefault();
+		if($(this).hasClass('close')){
+			$('header.small').removeClass('bcw');
+		}
 		var id = $(this).data('id');
 		$(id).removeClass('open_visible');
 		$('.open_visible_toggle').removeClass('open_visible_toggle');
@@ -163,7 +169,8 @@ $(document).ready(function(){
 		nextButton: '.swiper-button-next',
 		prevButton: '.swiper-button-prev',
 		spaceBetween: 30,
-		loop: true
+		loop: true,
+		autoplay:6000
 	});
 
 	//columnizer
@@ -333,4 +340,13 @@ $(document).ready(function(){
 		$('.holder_new_album').slideUp(100);
 		$('.new_album .plus').removeClass('active');
 	});
+
+	//hide
+	$(document).click(function(event) {
+		if ($(event.target).closest(".profile_tab.open_visible_toggle,.btn_profile_tab").length) return;
+		$(".profile_tab").removeClass('open_visible_toggle');
+		event.stopPropagation();
+	});
+
+	$(".phone").mask("+9 (999) 999-99-99");
 });
