@@ -4,7 +4,7 @@ $(document).ready(function(){
 	$('a[data-event=show]').on('click', function (event) {
 		event.preventDefault();
 		if($(this).hasClass('my_city')){
-			$('header.small').addClass('bcw');
+			$('header').addClass('bcw');
 		}
 		$('.open_visible').removeClass('open_visible');
 		var id = $(this).data('id');
