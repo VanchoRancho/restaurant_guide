@@ -3559,3 +3559,37 @@ input[type=submit].dibm{
   padding-right: 30px;
   margin-right: 30px;
 }
+
+.agreement_page {
+  width: 90%;
+  box-sizing: border-box;
+}
+
+.agreement_page ul,
+.agreement_page ol {
+  padding-left: 40px;
+}
+
+.agreement_page_item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.agreement_page_title {
+  width: 33%;
+  padding-right: 20px;
+}
+
+.agreement_page_text {
+  width: 67%;
+}
+
+.agreement_page a {
+  text-decoration: underline;
+}
+
+.agreement_page strong a {
+  font-family: ApercuProBold,ApercuProRegular, Tahoma, Helvetica, Arial;
+}
