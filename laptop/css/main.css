@@ -3580,10 +3580,13 @@ input[type=submit].dibm{
 .agreement_page_title {
   width: 33%;
   padding-right: 20px;
+  box-sizing: border-box;
+  color: #000;
 }
 
 .agreement_page_text {
   width: 67%;
+  box-sizing: border-box;
 }
 
 .agreement_page a {
@@ -3591,5 +3594,66 @@ input[type=submit].dibm{
 }
 
 .agreement_page strong a {
+  font-family: ApercuProBold,ApercuProRegular, Tahoma, Helvetica, Arial;
+}
+
+.faq_page {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.faq_page ul,
+.faq_page ol {
+  padding-left: 40px;
+}
+
+.faq_page_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.faq_page_title {
+  width: 66%;
+  box-sizing: border-box;
+  padding-right: 25px;
+  color: #000000;
+  background: url('../img/arrow_gray_down.svg') right 3px no-repeat;
+  transition: background 0.2s ease-out;
+}
+
+.faq_page_title:hover {
+  color: #999;
+  background: url('../img/arrow_gray_down.svg') right 3px no-repeat;
+}
+
+.faq_page_title.active {
+  background: url('../img/arrow_gray_up.svg') right 3px no-repeat;
+}
+
+.faq_page_title.active:hover {
+  background: url('../img/arrow_gray_up.svg') right 3px no-repeat;
+}
+
+.faq_page_title.accordion {
+  cursor: pointer;
+}
+
+.faq_page_text {
+  width: 66%;
+  box-sizing: border-box;
+  padding-right: 25px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.faq_page a {
+  text-decoration: underline;
+}
+
+.faq_page strong a {
   font-family: ApercuProBold,ApercuProRegular, Tahoma, Helvetica, Arial;
 }
