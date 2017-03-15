@@ -3746,3 +3746,11 @@ input[type=submit].dibm{
 .contacts form input[type=file] {
   display: none;
 }
+
+.about_page {
+  width: 700px;
+}
+
+.about_page ul {
+  list-style: inside;
+}
