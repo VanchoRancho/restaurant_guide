@@ -3737,6 +3737,10 @@ input[type=submit].dibm{
   margin: 0 0 13px 0;
 }
 
+.contacts form .green_btn {
+  margin-bottom: 20px;
+}
+
 .contacts .holder_for_file {
   margin-bottom: 20px;
 }

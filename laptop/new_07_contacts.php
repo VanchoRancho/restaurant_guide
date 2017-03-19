@@ -24,12 +24,17 @@
         </div>
 
         <p class="color_dark">*  —  поля, обязательные для заполнения</p>
-        <p> ООО «Сервис Гид» <br>
-            194214, СПб, пр.Тореза, д. 95-177 <br>
-            ИНН 7802786173 КПП 780201001
-        </p>
-        <p>Электронная почта: <a href="mailto:info@restsguide.ru">info@restsguide.ru</a></p>
+
+        <input type="submit" value="Отправить" class="green_btn">
+
     </form>
+
+    <p> ООО «Сервис Гид» <br>
+        194214, СПб, пр.Тореза, д. 95-177 <br>
+        ИНН 7802786173 КПП 780201001
+    </p>
+    <p>Электронная почта: <a href="mailto:info@restsguide.ru">info@restsguide.ru</a></p>
+
     </div>
 
 
